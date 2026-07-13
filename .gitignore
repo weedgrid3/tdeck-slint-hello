@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+slint-compiler/
+slint-compiler-Linux-x86_64.tar.gz
+*.bin
+*.elf
+*.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ESP-IDF
+export.sh
+.*.cmd
+*.python_env/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
