@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/root/tdeck_slint/build/CMakeFiles/bootloader
+/root/tdeck_slint/build/CMakeFiles/bootloader.rule
+/root/tdeck_slint/build/CMakeFiles/bootloader-complete.rule
+/root/tdeck_slint/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/root/tdeck_slint/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/root/tdeck_slint/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/root/tdeck_slint/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/root/tdeck_slint/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/root/tdeck_slint/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/root/tdeck_slint/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

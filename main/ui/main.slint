@@ -1,0 +1,43 @@
+import { VerticalBox } from "std-widgets.slint";
+
+export component MainWindow inherits Window {
+    width: 320px;
+    height: 240px;
+    background: #001122;
+
+    VerticalBox {
+        alignment: center;
+        spacing: 10px;
+
+        Text {
+            text: "T-DECK PLUS";
+            color: #00FFFF;
+            font-size: 24px;
+            font-weight: 700;
+            horizontal-alignment: center;
+        }
+
+        Text {
+            text: "HELLO WORLD";
+            color: #FFFFFF;
+            font-size: 32px;
+            font-weight: 700;
+            horizontal-alignment: center;
+        }
+
+        Text {
+            text: "ESP32-S3FN16R8\n320x240 ST7789 + GT911";
+            color: #88AAFF;
+            font-size: 16px;
+            horizontal-alignment: center;
+        }
+
+        Text {
+            text: "counter: 0";
+            color: #00FF88;
+            font-size: 18px;
+            font-weight: 600;
+            horizontal-alignment: center;
+        }
+    }
+}

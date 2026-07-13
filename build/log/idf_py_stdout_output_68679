@@ -1,0 +1,10 @@
+[1/96] Generating main.h
+FAILED: [code=255] esp-idf/main/main.h esp-idf/main/slint_generated_main_1.cpp /root/tdeck_slint/build/esp-idf/main/main.h /root/tdeck_slint/build/esp-idf/main/slint_generated_main_1.cpp 
+cd /root/tdeck_slint/build && /root/tdeck_slint/slint-compiler/slint-compiler /root/tdeck_slint/main/ui/main.slint -f cpp -o /root/tdeck_slint/build/esp-idf/main/main.h --depfile /root/tdeck_slint/build/esp-idf/main/main.d --style fluent --embed-resources=as-absolute-path --translation-domain=__idf_main    --cpp-file=/root/tdeck_slint/build/esp-idf/main/slint_generated_main_1.cpp
+error: Expected plain string literal
+ --> /root/tdeck_slint/main/ui/main.slint:1:60
+  |
+1 | import { VerticalBox, Text, TextHorizontalAlignment } from std-widgets.slint;
+  |                                                            ^^^^^^^^^^^
+[2/96] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
+ninja: build stopped: subcommand failed.

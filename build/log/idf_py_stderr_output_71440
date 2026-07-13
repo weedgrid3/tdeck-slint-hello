@@ -1,0 +1,20 @@
+/tmp/kconfgen_tmp2kkojj4g:5: warning: '"default_reset"' is not a valid value for the bool symbol ESPTOOLPY_BEFORE_RESET (defined at /root/esp-idf/components/esptool_py/Kconfig.projbuild:232). Assignment ignored.
+/tmp/kconfgen_tmp2kkojj4g:6: warning: '"hard_reset"' is not a valid value for the bool symbol ESPTOOLPY_AFTER_RESET (defined at /root/esp-idf/components/esptool_py/Kconfig.projbuild:253). Assignment ignored.
+CMake Deprecation Warning at /root/esp-idf/components/mbedtls/mbedtls/CMakeLists.txt:21 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Warning (dev) at build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/lib/cmake/Slint/SlintMacro.cmake:84 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  main/CMakeLists.txt:7 (slint_target_sources)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

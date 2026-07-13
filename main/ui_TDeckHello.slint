@@ -1,0 +1,52 @@
+export component := ui_TDeckHello {
+    // Slint imports
+    import { Button, VerticalBox, HorizontalBox, Text } from std-widgets.slint;
+
+    // Main window
+    MainWindow := Window {
+        title: "T-Deck Plus Slint";
+        width: 320px;
+        height: 240px;
+        
+        background: #001122;
+
+        VerticalBox {
+            alignment: center;
+            spacing: 10px;
+
+            Text {
+                text: "T-DECK PLUS";
+                color: #00FFFF;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            Text {
+                text: "HELLO WORLD";
+                color: #FFFFFF;
+                font-size: 36px;
+                font-weight: bold;
+            }
+
+            Text {
+                text: "ESP32-S3FN16R8\n320x240 ST7789 + GT911";
+                color: #88AAFF;
+                font-size: 16px;
+                horizontal-alignment: center;
+            }
+
+            counter_text := Text {
+                text: "counter: 0";
+                color: #00FF88;
+                font-size: 18px;
+            }
+        }
+
+        // Counter animation
+        animate counter: 0.. {
+            counter_text.text = "counter: " + counter.to_string();
+            duration: 1000ms;
+            easing: linear;
+        }
+    }
+}

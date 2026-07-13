@@ -1,0 +1,78 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Processing 5 dependencies:
+NOTICE: [1/5] espressif/esp_lcd_touch (1.2.1)
+NOTICE: [2/5] espressif/esp_lcd_touch_gt911 (1.2.0~2)
+NOTICE: [3/5] espressif/esp_lvgl_port (2.8.0~1)
+NOTICE: [4/5] lvgl/lvgl (9.5.0)
+NOTICE: [5/5] idf (5.2.0)
+-- Project sdkconfig file /root/tdeck_slint/sdkconfig
+Loading defaults file /root/tdeck_slint/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- App "tdeck_slint" version: 1
+-- Adding linker script /root/tdeck_slint/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /root/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /root/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /root/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /root/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /root/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /root/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /root/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Adding linker script /root/slint-src/api/cpp/esp-idf/slint/esp-println.x
+-- LVGL version: 9.5.0
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__esp_lcd_touch espressif__esp_lcd_touch_gt911 espressif__esp_lvgl_port esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lvgl__lvgl lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc slint soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /root/esp-idf/components/app_trace /root/esp-idf/components/app_update /root/esp-idf/components/bootloader /root/esp-idf/components/bootloader_support /root/esp-idf/components/bt /root/esp-idf/components/cmock /root/esp-idf/components/console /root/esp-idf/components/cxx /root/esp-idf/components/driver /root/esp-idf/components/efuse /root/esp-idf/components/esp-tls /root/esp-idf/components/esp_adc /root/esp-idf/components/esp_app_format /root/esp-idf/components/esp_bootloader_format /root/esp-idf/components/esp_coex /root/esp-idf/components/esp_common /root/esp-idf/components/esp_eth /root/esp-idf/components/esp_event /root/esp-idf/components/esp_gdbstub /root/esp-idf/components/esp_hid /root/esp-idf/components/esp_http_client /root/esp-idf/components/esp_http_server /root/esp-idf/components/esp_https_ota /root/esp-idf/components/esp_https_server /root/esp-idf/components/esp_hw_support /root/esp-idf/components/esp_lcd /root/esp-idf/components/esp_local_ctrl /root/esp-idf/components/esp_mm /root/esp-idf/components/esp_netif /root/esp-idf/components/esp_netif_stack /root/esp-idf/components/esp_partition /root/esp-idf/components/esp_phy /root/esp-idf/components/esp_pm /root/esp-idf/components/esp_psram /root/esp-idf/components/esp_ringbuf /root/esp-idf/components/esp_rom /root/esp-idf/components/esp_system /root/esp-idf/components/esp_timer /root/esp-idf/components/esp_wifi /root/esp-idf/components/espcoredump /root/tdeck_slint/managed_components/espressif__esp_lcd_touch /root/tdeck_slint/managed_components/espressif__esp_lcd_touch_gt911 /root/tdeck_slint/managed_components/espressif__esp_lvgl_port /root/esp-idf/components/esptool_py /root/esp-idf/components/fatfs /root/esp-idf/components/freertos /root/esp-idf/components/hal /root/esp-idf/components/heap /root/esp-idf/components/http_parser /root/esp-idf/components/idf_test /root/esp-idf/components/ieee802154 /root/esp-idf/components/json /root/esp-idf/components/log /root/tdeck_slint/managed_components/lvgl__lvgl /root/esp-idf/components/lwip /root/tdeck_slint/main /root/esp-idf/components/mbedtls /root/esp-idf/components/mqtt /root/esp-idf/components/newlib /root/esp-idf/components/nvs_flash /root/esp-idf/components/nvs_sec_provider /root/esp-idf/components/openthread /root/esp-idf/components/partition_table /root/esp-idf/components/perfmon /root/esp-idf/components/protobuf-c /root/esp-idf/components/protocomm /root/esp-idf/components/pthread /root/esp-idf/components/sdmmc /root/slint-src/api/cpp/esp-idf/slint /root/esp-idf/components/soc /root/esp-idf/components/spi_flash /root/esp-idf/components/spiffs /root/esp-idf/components/tcp_transport /root/esp-idf/components/touch_element /root/esp-idf/components/ulp /root/esp-idf/components/unity /root/esp-idf/components/usb /root/esp-idf/components/vfs /root/esp-idf/components/wear_levelling /root/esp-idf/components/wifi_provisioning /root/esp-idf/components/wpa_supplicant /root/esp-idf/components/xtensa
+-- Configuring done (8.7s)
+-- Generating done (0.8s)
+-- Build files have been written to: /root/tdeck_slint/build
+[1/11] Performing build step for 'bootloader'
+[1/1] cd /root/tdeck_slint/build/bootloader/esp-idf/esptool_py && /root/.espressif/python_env/idf5.2_py3.11_env/bin/python /root/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /root/tdeck_slint/build/bootloader/bootloader.bin
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.
+[2/11] No install step for 'bootloader'
+[3/11] Completed 'bootloader'
+[4/11] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+FAILED: [code=1] esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj 
+/root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -DESP_PLATFORM -DIDF_VER=\"v5.2\" -DLV_CONF_INCLUDE_SIMPLE -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/root/tdeck_slint/build/config -I/root/tdeck_slint/main -I/root/tdeck_slint/build/esp-idf/main -I/root/esp-idf/components/newlib/platform_include -I/root/esp-idf/components/freertos/config/include -I/root/esp-idf/components/freertos/config/include/freertos -I/root/esp-idf/components/freertos/config/xtensa/include -I/root/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/root/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/root/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/root/esp-idf/components/freertos/esp_additions/include -I/root/esp-idf/components/esp_hw_support/include -I/root/esp-idf/components/esp_hw_support/include/soc -I/root/esp-idf/components/esp_hw_support/include/soc/esp32s3 -I/root/esp-idf/components/esp_hw_support/port/esp32s3/. -I/root/esp-idf/components/heap/include -I/root/esp-idf/components/log/include -I/root/esp-idf/components/soc/include -I/root/esp-idf/components/soc/esp32s3 -I/root/esp-idf/components/soc/esp32s3/include -I/root/esp-idf/components/hal/platform_port/include -I/root/esp-idf/components/hal/esp32s3/include -I/root/esp-idf/components/hal/include -I/root/esp-idf/components/esp_rom/include -I/root/esp-idf/components/esp_rom/include/esp32s3 -I/root/esp-idf/components/esp_rom/esp32s3 -I/root/esp-idf/components/esp_common/include -I/root/esp-idf/components/esp_system/include -I/root/esp-idf/components/esp_system/port/soc -I/root/esp-idf/components/esp_system/port/include/private -I/root/esp-idf/components/xtensa/esp32s3/include -I/root/esp-idf/components/xtensa/include -I/root/esp-idf/components/xtensa/deprecated_include -I/root/esp-idf/components/lwip/include -I/root/esp-idf/components/lwip/include/apps -I/root/esp-idf/components/lwip/include/apps/sntp -I/root/esp-idf/components/lwip/lwip/src/include -I/root/esp-idf/components/lwip/port/include -I/root/esp-idf/components/lwip/port/freertos/include -I/root/esp-idf/components/lwip/port/esp32xx/include -I/root/esp-idf/components/lwip/port/esp32xx/include/arch -I/root/esp-idf/components/lwip/port/esp32xx/include/sys -I/root/slint-src/api/cpp/esp-idf/slint/include -I/root/esp-idf/components/esp_lcd/include -I/root/esp-idf/components/esp_lcd/interface -I/root/esp-idf/components/driver/include -I/root/esp-idf/components/driver/deprecated -I/root/esp-idf/components/driver/analog_comparator/include -I/root/esp-idf/components/driver/dac/include -I/root/esp-idf/components/driver/gpio/include -I/root/esp-idf/components/driver/gptimer/include -I/root/esp-idf/components/driver/i2c/include -I/root/esp-idf/components/driver/i2s/include -I/root/esp-idf/components/driver/ledc/include -I/root/esp-idf/components/driver/mcpwm/include -I/root/esp-idf/components/driver/parlio/include -I/root/esp-idf/components/driver/pcnt/include -I/root/esp-idf/components/driver/rmt/include -I/root/esp-idf/components/driver/sdio_slave/include -I/root/esp-idf/components/driver/sdmmc/include -I/root/esp-idf/components/driver/sigma_delta/include -I/root/esp-idf/components/driver/spi/include -I/root/esp-idf/components/driver/temperature_sensor/include -I/root/esp-idf/components/driver/touch_sensor/include -I/root/esp-idf/components/driver/twai/include -I/root/esp-idf/components/driver/uart/include -I/root/esp-idf/components/driver/usb_serial_jtag/include -I/root/esp-idf/components/driver/touch_sensor/esp32s3/include -I/root/esp-idf/components/esp_pm/include -I/root/esp-idf/components/esp_ringbuf/include -I/root/tdeck_slint/managed_components/espressif__esp_lcd_touch/include -I/root/tdeck_slint/managed_components/espressif__esp_lcd_touch_gt911/include -I/root/tdeck_slint/managed_components/espressif__esp_lvgl_port/include -I/root/tdeck_slint/managed_components/lvgl__lvgl -I/root/tdeck_slint/managed_components/lvgl__lvgl/src -I/root/tdeck_slint/managed_components -I/root/tdeck_slint/managed_components/lvgl__lvgl/examples -I/root/tdeck_slint/managed_components/lvgl__lvgl/demos -isystem /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint -mlongcalls  -std=gnu++20 -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/root/tdeck_slint=. -fmacro-prefix-map=/root/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu++2b -fno-exceptions -fno-rtti -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj -c /root/tdeck_slint/main/main.cpp
+/root/tdeck_slint/main/main.cpp: In function 'void app_main()':
+/root/tdeck_slint/main/main.cpp:119:12: error: expected unqualified-id before string constant
+  119 |     extern "C" esp_err_t esp_lcd_touch_new_i2c_gt911(const esp_lcd_panel_io_handle_t io, const esp_lcd_touch_config_t *config, esp_lcd_touch_handle_t *out_touch);
+      |            ^~~
+In file included from /root/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /root/esp-idf/components/esp_hw_support/include/esp_cpu.h:20,
+                 from /root/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /root/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:49,
+                 from /root/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /root/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69,
+                 from /root/tdeck_slint/main/main.cpp:3:
+/root/tdeck_slint/main/main.cpp:131:21: error: 'esp_lcd_touch_new_i2c_gt911' was not declared in this scope
+  131 |     ESP_ERROR_CHECK(esp_lcd_touch_new_i2c_gt911(tp_io_handle, &tp_config, &touch_handle));
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/root/tdeck_slint/main/main.cpp:137:57: error: no matching function for call to 'slint::PhysicalSize::PhysicalSize(int, int)'
+  137 |         .size = slint::PhysicalSize(LCD_H_RES, LCD_V_RES),
+      |                                                         ^
+In file included from /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_image.h:8,
+                 from /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_data_transfer.h:13,
+                 from /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_builtin_structs.h:5,
+                 from /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_keys_internal.h:11,
+                 from /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_keys.h:5,
+                 from /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_internal.h:14,
+                 from /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/slint.h:7,
+                 from /root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/slint-platform.h:7,
+                 from /root/slint-src/api/cpp/esp-idf/slint/include/slint-esp.h:6,
+                 from /root/tdeck_slint/main/main.cpp:15:
+/root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_size.h:41:24: note: candidate: 'constexpr slint::PhysicalSize::PhysicalSize(slint::Size<long unsigned int>)'
+   41 |     explicit constexpr PhysicalSize(const Size<uint32_t> s = { 0, 0 }) : Size<uint32_t>(s) { }
+      |                        ^~~~~~~~~~~~
+/root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_size.h:41:24: note:   candidate expects 1 argument, 2 provided
+/root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_size.h:38:8: note: candidate: 'constexpr slint::PhysicalSize::PhysicalSize(const slint::PhysicalSize&)'
+   38 | struct PhysicalSize : public Size<uint32_t>
+      |        ^~~~~~~~~~~~
+/root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_size.h:38:8: note:   candidate expects 1 argument, 2 provided
+/root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_size.h:38:8: note: candidate: 'constexpr slint::PhysicalSize::PhysicalSize(slint::PhysicalSize&&)'
+/root/tdeck_slint/build/slint-prebuilt/Slint-cpp-nightly-xtensa-esp32s3-none-elf/include/slint/private/slint_size.h:38:8: note:   candidate expects 1 argument, 2 provided
+ninja: build stopped: subcommand failed.
