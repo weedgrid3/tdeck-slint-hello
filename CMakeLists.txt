@@ -7,6 +7,9 @@ list(PREPEND CMAKE_MODULE_PATH "$ENV{HOME}/slint-src/api/cpp/esp-idf/slint/cmake
 # Add the slint component from source tree (provides slint-esp.cpp integration)
 list(APPEND EXTRA_COMPONENT_DIRS "$ENV{HOME}/slint-src/api/cpp/esp-idf/")
 
+# Tell slint component we're using nightly prebuilts - skip FetchContent fallback
+set(SLINT_NIGHTLY ON CACHE BOOL "Using nightly prebuilt Slint binaries" FORCE)
+
 # Set path to pre-downloaded slint-compiler binary
 set(SLINT_COMPILER "$ENV{HOME}/tdeck-slint-hello/slint-compiler/slint-compiler" CACHE STRING "Path to slint-compiler executable" FORCE)
 
